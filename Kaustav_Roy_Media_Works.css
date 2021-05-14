@@ -13,6 +13,21 @@
    0% { background-color: #000000;  }
    100% { background-color: #FFFFFF;  }
 }
+@-webkit-keyframes animate-fade-in
+{
+   0% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@-moz-keyframes animate-fade-in
+{
+   0% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@keyframes animate-fade-in
+{
+   0% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
 @-webkit-keyframes animate-fade-in-down
 {
    0% { -webkit-transform: translate(0px,-100px) rotate(0deg) ; opacity: 0;  }
@@ -87,6 +102,30 @@
 {
    0% { opacity: 1;  }
    100% { opacity: 0;  }
+}
+@-webkit-keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@-moz-keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
 }
 @-webkit-keyframes slide-down-in
 {
@@ -240,6 +279,24 @@
    60% { transform-origin: top center; transform: rotate(5deg) ;  }
    80% { transform-origin: top center; transform: rotate(-5deg) ;  }
    100% { transform-origin: top center; transform: rotate(0deg) ;  }
+}
+@-webkit-keyframes flip-in
+{
+   0% { -webkit-transform: perspective(400px) rotateX(90deg) scale3d(1.2,1.2,1.2) ; opacity: 0;  }
+   50% { -webkit-transform: perspective(400px) rotateX(-20deg) scale3d(1.0,1.0,1.0) ; opacity: 1;  }
+   100% { -webkit-transform: perspective(400px) rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+@-moz-keyframes flip-in
+{
+   0% { -moz-transform: perspective(400px) rotateX(90deg) scale3d(1.2,1.2,1.2) ; opacity: 0;  }
+   50% { -moz-transform: perspective(400px) rotateX(-20deg) scale3d(1.0,1.0,1.0) ; opacity: 1;  }
+   100% { -moz-transform: perspective(400px) rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+@keyframes flip-in
+{
+   0% { transform: perspective(400px) rotateX(90deg) scale3d(1.2,1.2,1.2) ; opacity: 0;  }
+   50% { transform: perspective(400px) rotateX(-20deg) scale3d(1.0,1.0,1.0) ; opacity: 1;  }
+   100% { transform: perspective(400px) rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
 h1, .h1
 {
