@@ -46,15 +46,27 @@
       $('#wb_indexCard32').addClass('visibility-hidden');
       $('#wb_indexCard33').addClass('visibility-hidden');
       $('#wb_indexHeading2').addClass('visibility-hidden');
-      $('#wb_Text1').addClass('visibility-hidden');
-      $('#wb_Heading1').addClass('visibility-hidden');
-      $('#wb_indexImage2').addClass('visibility-hidden');
+      $("a[href*='#indexLayoutGrid1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid1').offset().top }, 600, 'linear');
+      });
       function skrollrInit()
       {
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
+      $("a[href*='#indexLayer1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#indexLayer1').offset().top }, 250, 'linear');
+      });
       $('#indexLayer1').parallax();
+      $("a[href*='#LayoutGrid3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 250, 'linear');
+      });
       function onScrollHeading7()
       {
          var $obj = $("#wb_Heading7");
@@ -78,6 +90,11 @@
       $(window).scroll(function(event)
       {
          onScrollHeading7();
+      });
+      $("a[href*='#LayoutGrid4']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top }, 250, 'linear');
       });
       function onScrollCard7()
       {
@@ -150,6 +167,26 @@
       $(window).scroll(function(event)
       {
          onScrollCard2();
+      });
+      $("a[href*='#indexLayoutGrid3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid3').offset().top }, 250, 'linear');
+      });
+      $("a[href*='#indexLayoutGrid4']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid4').offset().top }, 250, 'linear');
+      });
+      $("a[href*='#indexLayoutGrid6']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid6').offset().top }, 250, 'linear');
+      });
+      $("a[href*='#LayoutGrid5']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid5').offset().top }, 250, 'linear');
       });
       function onScrollCard3()
       {
@@ -246,6 +283,21 @@
       $(window).scroll(function(event)
       {
          onScrollindexText1();
+      });
+      $("a[href*='#indexLayoutGrid7']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid7').offset().top }, 250, 'linear');
+      });
+      $("a[href*='#indexLayoutGrid5']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid5').offset().top }, 250, 'linear');
+      });
+      $("a[href*='#indexLayoutGrid2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid2').offset().top }, 250, 'linear');
       });
       function onScrollindexCard1()
       {
@@ -727,6 +779,11 @@
       {
          onScrollindexCard18();
       });
+      $("a[href*='#indexLayoutGrid8']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid8').offset().top }, 250, 'linear');
+      });
       function onScrollindexHeading1()
       {
          var $obj = $("#wb_indexHeading1");
@@ -750,6 +807,11 @@
       $(window).scroll(function(event)
       {
          onScrollindexHeading1();
+      });
+      $("a[href*='#indexLayoutGrid9']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid9').offset().top }, 250, 'linear');
       });
       function onScrollindexCard19()
       {
@@ -823,6 +885,11 @@
       {
          onScrollindexCard21();
       });
+      $("a[href*='#indexLayoutGrid10']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid10').offset().top }, 250, 'linear');
+      });
       function onScrollindexCard22()
       {
          var $obj = $("#wb_indexCard22");
@@ -894,6 +961,11 @@
       $(window).scroll(function(event)
       {
          onScrollindexCard24();
+      });
+      $("a[href*='#indexLayoutGrid11']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid11').offset().top }, 250, 'linear');
       });
       function onScrollindexCard25()
       {
@@ -967,6 +1039,11 @@
       {
          onScrollindexCard27();
       });
+      $("a[href*='#indexLayoutGrid12']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid12').offset().top }, 250, 'linear');
+      });
       function onScrollindexCard28()
       {
          var $obj = $("#wb_indexCard28");
@@ -1038,6 +1115,11 @@
       $(window).scroll(function(event)
       {
          onScrollindexCard30();
+      });
+      $("a[href*='#indexLayoutGrid13']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid13').offset().top }, 250, 'linear');
       });
       function onScrollindexCard31()
       {
@@ -1111,6 +1193,11 @@
       {
          onScrollindexCard33();
       });
+      $("a[href*='#indexLayoutGrid14']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid14').offset().top }, 250, 'linear');
+      });
       function onScrollindexHeading2()
       {
          var $obj = $("#wb_indexHeading2");
@@ -1135,6 +1222,11 @@
       {
          onScrollindexHeading2();
       });
+      $("a[href*='#CardContainer9']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#CardContainer9').offset().top }, 250, 'linear');
+      });
       $('#indexOverlayMenu1-overlay').overlay({hideTransition:true});
       $('.indexOverlayMenu1').drilldownmenu({backText: 'Back'});
       $('#indexOverlayMenu1').on('click', function(e)
@@ -1142,76 +1234,43 @@
          $.overlay.show($('#indexOverlayMenu1-overlay'));
          return false;
       });
-      function onScrollText1()
+      $("a[href*='#LayoutGrid1']").click(function(event)
       {
-         var $obj = $("#wb_Text1");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_Text1', 'transform-roll-in', 0, 750);
-         }
-         else
-         if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-         {
-            $obj.removeClass("in-viewport");
-            AnimateCss('wb_Text1', 'animate-fade-out', 0, 0);
-         }
-      }
-      if (!$('#wb_Text1').inViewPort(true))
-      {
-         $('#wb_Text1').addClass("in-viewport");
-      }
-      onScrollText1();
-      $(window).scroll(function(event)
-      {
-         onScrollText1();
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'linear');
       });
-      function onScrollHeading1()
+      $("a[href*='#footer']").click(function(event)
       {
-         var $obj = $("#wb_Heading1");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_Heading1', 'transform-rotate-in', 0, 750);
-         }
-         else
-         if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-         {
-            $obj.removeClass("in-viewport");
-            AnimateCss('wb_Heading1', 'animate-fade-out', 0, 0);
-         }
-      }
-      if (!$('#wb_Heading1').inViewPort(true))
-      {
-         $('#wb_Heading1').addClass("in-viewport");
-      }
-      onScrollHeading1();
-      $(window).scroll(function(event)
-      {
-         onScrollHeading1();
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_footer').offset().top }, 600, 'linear');
       });
-      function onScrollindexImage2()
+      $("a[href*='#MasterPageBookmark1']").click(function(event)
       {
-         var $obj = $("#wb_indexImage2");
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_MasterPageBookmark1').offset().top }, 600, 'linear');
+      });
+      function onScrollMasterPageBookmark1()
+      {
+         var $obj = $("#wb_MasterPageBookmark1");
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexImage2', 'animate-fade-in-down', 0, 750);
+            ShowObject('stickyLayer', 0);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
          {
             $obj.removeClass("in-viewport");
-            AnimateCss('wb_indexImage2', 'animate-fade-out', 0, 0);
+            ShowObject('stickyLayer', 1);
          }
       }
-      if (!$('#wb_indexImage2').inViewPort(true))
+      if (!$('#wb_MasterPageBookmark1').inViewPort(true))
       {
-         $('#wb_indexImage2').addClass("in-viewport");
+         $('#wb_MasterPageBookmark1').addClass("in-viewport");
       }
-      onScrollindexImage2();
+      onScrollMasterPageBookmark1();
       $(window).scroll(function(event)
       {
-         onScrollindexImage2();
+         onScrollMasterPageBookmark1();
       });
    });
