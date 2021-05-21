@@ -504,6 +504,11 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_footer').offset().top }, 600, 'linear');
       });
+      $("a[href*='#stickyLayer']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#stickyLayer').offset().top }, 600, 'linear');
+      });
       $("a[href*='#MasterPageBookmark1']").click(function(event)
       {
          event.preventDefault();
@@ -512,7 +517,7 @@
       function onScrollMasterPageBookmark1()
       {
          var $obj = $("#wb_MasterPageBookmark1");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
          {
             $obj.addClass("in-viewport");
             ShowObject('stickyLayer', 0);
@@ -533,6 +538,7 @@
       {
          onScrollMasterPageBookmark1();
       });
+      $('img[data-src]').lazyload();
    });
    
    $(document).ready(function()

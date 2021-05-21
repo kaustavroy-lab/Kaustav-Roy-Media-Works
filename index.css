@@ -4882,22 +4882,22 @@ width: 100%;}
 #LayoutGrid1
 {
    box-sizing: border-box;
-   padding: 50px 15px 50px 15px;
+   padding: 50px 30px 50px 30px;
    margin-right: auto;
    margin-left: auto;
 }
 #LayoutGrid1 > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -30px;
+   margin-left: -30px;
 }
 #LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 30px;
+   padding-left: 30px;
    position: relative;
 }
 #LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
@@ -4971,8 +4971,8 @@ width: 100%;}
    color: #FFFFFF;
    font-family: Courgette;
    font-weight: normal;
-   font-size: 19px;
-   line-height: 23px;
+   font-size: 15px;
+   line-height: 18px;
 }
 #wb_Text1 div
 {
@@ -5011,7 +5011,7 @@ width: 100%;}
    background-image: none;
    border: 0px solid #000000;
    padding: 0px 0px 8px 0px;
-   margin: 5px 0px 0px 0px;
+   margin: 10px 0px 0px 0px;
    text-align: left;
 }
 #wb_Text7
@@ -5029,7 +5029,7 @@ width: 100%;}
 #wb_Text7
 {
    display: block;
-   margin: 5px 0px 0px 0px;
+   margin: 10px 0px 0px 0px;
    box-sizing: border-box;
 width: 100%;}
 #wb_CssMenu3
@@ -5285,7 +5285,7 @@ width: 100%;}
    background-image: none;
    border: 0px solid #000000;
    padding: 0px 0px 8px 0px;
-   margin: 5px 0px 0px 0px;
+   margin: 10px 0px 0px 0px;
    text-align: left;
 }
 #wb_Text3
@@ -5303,7 +5303,7 @@ width: 100%;}
 #wb_Text3
 {
    display: block;
-   margin: 5px 0px 0px 0px;
+   margin: 10px 0px 0px 0px;
    box-sizing: border-box;
 width: 100%;}
 #wb_CssMenu2
@@ -5397,7 +5397,7 @@ width: 100%;}
    background-image: none;
    border: 0px solid #000000;
    padding: 0px 0px 5px 0px;
-   margin: 0;
+   margin: 10px 0px 0px 0px;
    text-align: left;
 }
 #wb_Text4
@@ -5415,7 +5415,7 @@ width: 100%;}
 #wb_Text4
 {
    display: block;
-   margin: 0;
+   margin: 10px 0px 0px 0px;
    box-sizing: border-box;
 width: 100%;}
 #wb_Shape1
@@ -5533,8 +5533,8 @@ width: 100%;}
    border: 0px solid #000000;
    padding: 0;
    display: inline-block;
-   width: 108px;
-   height: 108px;
+   width: 131px;
+   height: 125px;
    vertical-align: top;
 }
 #wb_indexText3 
@@ -5578,6 +5578,7 @@ width: 100%;}
 {
    background-color: #FFC000;
    background-image: none;
+   padding: 0;
 }
 #stickyLayer
 {
@@ -5586,6 +5587,13 @@ width: 100%;}
    transform-origin: top left;
    -webkit-transition: -webkit-transform 0ms linear 0ms, transform-origin 0ms linear 0ms;
    transition: transform 0ms linear 0ms, transform-origin 0ms linear 0ms;
+}
+#stickyLayer
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
 }
 #contactButton
 {
@@ -5606,7 +5614,7 @@ width: 100%;}
 #indexShape3
 {
    width: 100px;
-   height: 48px;
+   height: 43px;
 }
 #wb_indexShape2
 {
@@ -5651,7 +5659,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100px;
-   height: 48px;
+   height: 43px;
    z-index: 64;
    position: relative;
 }
@@ -5731,10 +5739,8 @@ width: 100%;}
 }
 #contactButton
 {
-   position: absolute;
-   left: 11px;
-   top: 5px;
-   width: 114px;
+   display: inline-block;
+   width: 122px;
    height: 23px;
    z-index: 66;
 }
@@ -5843,8 +5849,8 @@ width: 100%;}
 #wb_indexImage2
 {
    display: inline-block;
-   width: 108px;
-   height: 108px;
+   width: 131px;
+   height: 125px;
    z-index: 53;
 }
 #wb_indexCard19
@@ -5899,12 +5905,12 @@ width: 100%;}
 #stickyLayer
 {
    position: fixed;
-   text-align: left;
+   text-align: center;
    left: 0px;
    top: 50%;
-   margin-top: 54px;
-   width: 137px;
-   height: 32px;
+   margin-top: 56px;
+   width: 141px;
+   height: 29px;
    z-index: 68;
 }
 #wb_indexOverlayMenu1
@@ -5925,7 +5931,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 60;
+   z-index: 59;
 }
 #wb_Card23
 {
@@ -5962,7 +5968,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 58;
+   z-index: 57;
 }
 #wb_Card24
 {
@@ -5990,6 +5996,10 @@ width: 100%;}
    z-index: 26;
 }
 #indexLayer1-container
+{
+   width: 100%;
+}
+#stickyLayer-container
 {
    width: 100%;
 }
@@ -6029,7 +6039,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 57;
+   z-index: 60;
 }
 #wb_Heading1
 {
