@@ -46,6 +46,9 @@
       $('#wb_indexCard32').addClass('visibility-hidden');
       $('#wb_indexCard33').addClass('visibility-hidden');
       $('#wb_indexHeading2').addClass('visibility-hidden');
+      $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
+      $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
+      $('#wb_FontAwesomeIcon11').addClass('visibility-hidden');
       $("a[href*='#indexLayoutGrid1']").click(function(event)
       {
          event.preventDefault();
@@ -1277,6 +1280,48 @@
       $(window).scroll(function(event)
       {
          onScrollMasterPageBookmark1();
+      });
+      function onScrollFontAwesomeIcon3()
+      {
+         var $obj = $("#wb_FontAwesomeIcon3");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('wb_FontAwesomeIcon3', 'transform-lightspeed-in', 100, 1000);
+         }
+      }
+      onScrollFontAwesomeIcon3();
+      $(window).scroll(function(event)
+      {
+         onScrollFontAwesomeIcon3();
+      });
+      function onScrollFontAwesomeIcon10()
+      {
+         var $obj = $("#wb_FontAwesomeIcon10");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('wb_FontAwesomeIcon10', 'transform-lightspeed-in', 300, 1000);
+         }
+      }
+      onScrollFontAwesomeIcon10();
+      $(window).scroll(function(event)
+      {
+         onScrollFontAwesomeIcon10();
+      });
+      function onScrollFontAwesomeIcon11()
+      {
+         var $obj = $("#wb_FontAwesomeIcon11");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('wb_FontAwesomeIcon11', 'transform-lightspeed-in', 400, 1000);
+         }
+      }
+      onScrollFontAwesomeIcon11();
+      $(window).scroll(function(event)
+      {
+         onScrollFontAwesomeIcon11();
       });
       $('img[data-src]').lazyload();
    });
