@@ -51,7 +51,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFC000;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -607,14 +607,14 @@ width: 100%;}
 }
 #indexOverlayMenu1
 {
-   background-color: #FFFFFF;
+   background-color: rgba(255,255,255,0.00);
    background-image: none;
    border: 0px solid #FFFFFF;
    margin: 5px 0px 0px 0px;
 }
 #indexOverlayMenu1:hover
 {
-   background-color: #FFC000;
+   background-color: rgba(255,255,255,0.00);
    background-image: none;
    border-color: #FFFFFF;
 }
@@ -629,13 +629,13 @@ width: 100%;}
 {
    width: 20px;
    height: 4px;
-   background: #FFC000;
+   background: #1CB3F0;
    display: block;
    margin: 4px auto;
 }
 #indexOverlayMenu1:hover .line
 {
-   background: #424242;
+   background: #FF3F77;
 }
 #indexOverlayMenu1 .line:first-child
 {
@@ -1626,7 +1626,7 @@ width: 100%;}
    padding: 0;
    display: inline-block;
    width: 131px;
-   height: 125px;
+   height: 131px;
    vertical-align: top;
 }
 #wb_indexText3 
@@ -1934,7 +1934,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 131px;
-   height: 125px;
+   height: 131px;
    z-index: 13;
 }
 #wb_waitForItDays
