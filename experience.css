@@ -87,15 +87,15 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: center;
+   width: 33.33333333%;
+   text-align: left;
 }
 #indexLayoutGrid1 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 75%;
+   width: 66.66666667%;
    text-align: right;
 }
 #indexLayoutGrid1:before,
@@ -121,7 +121,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_indexImage1
 {
-   margin: 0;
+   margin: 0px 0px 0px 5px;
    vertical-align: top;
 }
 #indexImage1
@@ -129,8 +129,8 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #000000;
    padding: 0;
    display: inline-block;
-   width: 64px;
-   height: 64px;
+   width: 233px;
+   height: 57px;
    vertical-align: top;
 }
 #indexLayer1
@@ -3673,7 +3673,7 @@ width: 100%;}
 {
    display: block;
    width: 52px;
-   height: 51px;
+   height: 43px;
    position: absolute;
 }
 #indexOverlayMenu1 .line
@@ -3690,7 +3690,7 @@ width: 100%;}
 }
 #indexOverlayMenu1 .line:first-child
 {
-   margin-top: 18px;
+   margin-top: 14px;
 }
 #indexOverlayMenu1-close
 {
@@ -4676,8 +4676,8 @@ width: 100%;}
    border: 0px solid #000000;
    padding: 0;
    display: inline-block;
-   width: 131px;
-   height: 131px;
+   width: 155px;
+   height: 155px;
    vertical-align: top;
 }
 #wb_indexText3 
@@ -4762,6 +4762,10 @@ width: 100%;}
 }
 #contactButton
 {
+   line-height: 21px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
    border: 1px solid #0C0C0C;
    border-radius: 4px;
    background-color: #0C0C0C;
@@ -5002,8 +5006,8 @@ width: 100%;}
 #contactButton
 {
    display: inline-block;
-   width: 122px;
-   height: 23px;
+   width: 120px;
+   height: 21px;
    z-index: 56;
 }
 #wb_FontAwesomeIcon11
@@ -5083,8 +5087,8 @@ width: 100%;}
 #wb_indexImage1
 {
    display: inline-block;
-   width: 64px;
-   height: 64px;
+   width: 233px;
+   height: 57px;
    z-index: 0;
 }
 #MasterPageBookmark1
@@ -5094,8 +5098,8 @@ width: 100%;}
 #wb_indexImage2
 {
    display: inline-block;
-   width: 131px;
-   height: 131px;
+   width: 155px;
+   height: 155px;
    z-index: 40;
 }
 #wb_uid7
@@ -5210,7 +5214,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 52px;
-   height: 51px;
+   height: 43px;
    z-index: 1;
 }
 #wb_uid14
