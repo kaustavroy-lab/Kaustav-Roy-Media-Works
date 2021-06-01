@@ -54,11 +54,6 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid1').offset().top }, 600, 'linear');
       });
-      function skrollrInit()
-      {
-         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
-      }
-      skrollrInit();
       $("a[href*='#indexLayer1']").click(function(event)
       {
          event.preventDefault();
@@ -197,7 +192,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_Card3', 'animate-fade-in-right', 0, 750);
+            AnimateCss('wb_Card3', 'animate-fade-in-down', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -221,7 +216,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_Card4', 'animate-fade-in-right', 0, 1250);
+            AnimateCss('wb_Card4', 'animate-fade-in-down', 0, 1250);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -245,7 +240,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_Card5', 'animate-fade-in-right', 0, 750);
+            AnimateCss('wb_Card5', 'animate-fade-in-down', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -899,7 +894,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard22', 'slide-left-in', 0, 750);
+            AnimateCss('wb_indexCard22', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -923,7 +918,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard23', 'slide-left-in', 0, 750);
+            AnimateCss('wb_indexCard23', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -947,7 +942,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard24', 'slide-left-in', 0, 750);
+            AnimateCss('wb_indexCard24', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -976,7 +971,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard25', 'slide-right-in', 0, 750);
+            AnimateCss('wb_indexCard25', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -1000,7 +995,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard26', 'slide-right-in', 0, 750);
+            AnimateCss('wb_indexCard26', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -1024,7 +1019,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard27', 'slide-right-in', 0, 750);
+            AnimateCss('wb_indexCard27', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -1053,7 +1048,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard28', 'slide-up-in', 0, 750);
+            AnimateCss('wb_indexCard28', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -1077,7 +1072,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard29', 'slide-up-in', 0, 750);
+            AnimateCss('wb_indexCard29', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -1101,7 +1096,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_indexCard30', 'slide-up-in', 0, 750);
+            AnimateCss('wb_indexCard30', 'slide-down-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))

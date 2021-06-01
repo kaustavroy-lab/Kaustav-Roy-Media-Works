@@ -87,7 +87,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 33.33333333%;
+   width: 50%;
    text-align: left;
 }
 #indexLayoutGrid1 > .row > .col-2
@@ -95,7 +95,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 66.66666667%;
+   width: 50%;
    text-align: right;
 }
 #indexLayoutGrid1:before,
@@ -116,7 +116,7 @@ input:focus, textarea:focus, select:focus
 #indexLayoutGrid1 > .row > .col-1, #indexLayoutGrid1 > .row > .col-2
 {
    float: none;
-   width: 100% !important;
+   width: 100%;
 }
 }
 #wb_indexImage1

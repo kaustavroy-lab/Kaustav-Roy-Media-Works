@@ -9,11 +9,6 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid1').offset().top }, 600, 'linear');
       });
-      function skrollrInit()
-      {
-         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
-      }
-      skrollrInit();
       $('#indexOverlayMenu1-overlay').overlay({hideTransition:true});
       $('.indexOverlayMenu1').drilldownmenu({backText: 'Back'});
       $('#indexOverlayMenu1').on('click', function(e)

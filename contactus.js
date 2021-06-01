@@ -10,11 +10,6 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid1').offset().top }, 600, 'linear');
       });
-      function skrollrInit()
-      {
-         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
-      }
-      skrollrInit();
       $("a[href*='#intro']").click(function(event)
       {
          event.preventDefault();

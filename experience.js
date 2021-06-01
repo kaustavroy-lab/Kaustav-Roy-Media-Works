@@ -28,11 +28,6 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_indexLayoutGrid1').offset().top }, 600, 'linear');
       });
-      function skrollrInit()
-      {
-         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
-      }
-      skrollrInit();
       $('#indexLayer1').parallax();
       function onScrollHeading7()
       {
@@ -184,7 +179,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_experienceCard1', 'animate-fade-in-up', 0, 750);
+            AnimateCss('wb_experienceCard1', 'transform-scale-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
@@ -208,7 +203,7 @@
          if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
          {
             $obj.addClass("in-viewport");
-            AnimateCss('wb_experienceCard2', 'animate-fade-in-up', 0, 750);
+            AnimateCss('wb_experienceCard2', 'transform-scale-in', 0, 750);
          }
          else
          if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
