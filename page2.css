@@ -46,74 +46,6 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    z-index: 99999;
 }
-#wb_digitallockerLayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#digitallockerLayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 50px 0px 0px 0px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#digitallockerLayoutGrid1 > .row
-{
-   margin-right: 0;
-   margin-left: 0;
-}
-#digitallockerLayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 0px;
-   padding-left: 0px;
-   position: relative;
-}
-#digitallockerLayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#digitallockerLayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#digitallockerLayoutGrid1:before,
-#digitallockerLayoutGrid1:after,
-#digitallockerLayoutGrid1 .row:before,
-#digitallockerLayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#digitallockerLayoutGrid1:after,
-#digitallockerLayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#digitallockerLayoutGrid1 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #page2Button1
 {
    border: 1px solid #2E6DA4;
@@ -199,19 +131,179 @@ input:focus, textarea:focus, select:focus
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
+#wb_page2LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#page2LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#page2LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#page2LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#page2LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#page2LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#page2LayoutGrid1:before,
+#page2LayoutGrid1:after,
+#page2LayoutGrid1 .row:before,
+#page2LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#page2LayoutGrid1:after,
+#page2LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#page2LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_digitallockerLayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#digitallockerLayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 50px 0px 0px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#digitallockerLayoutGrid1 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#digitallockerLayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#digitallockerLayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#digitallockerLayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#digitallockerLayoutGrid1:before,
+#digitallockerLayoutGrid1:after,
+#digitallockerLayoutGrid1 .row:before,
+#digitallockerLayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#digitallockerLayoutGrid1:after,
+#digitallockerLayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#digitallockerLayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_page2InlineFrame1
+{
+   border: 1px solid #C0C0C0;
+   margin: 0;
+   overflow: auto;
+   -webkit-overflow-scrolling: touch;
+   position: relative;
+}
+#page2InlineFrame1
+{
+   border-width: 0;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #page2Editbox3
 {
    display: block;
    width: 100%;
    height: 91px;
-   z-index: 2;
+   z-index: 3;
+}
+#wb_page2InlineFrame1
+{
+   display: inline-block;
+   width: 100%;
+   height: 652px;
+   z-index: 0;
 }
 #page2Button1
 {
    display: inline-block;
    width: 195px;
    height: 79px;
-   z-index: 3;
+   z-index: 4;
 }
 #digitallockerLayoutGrid1
 {
@@ -222,12 +314,12 @@ input:focus, textarea:focus, select:focus
    display: block;
    width: 100%;
    height: 91px;
-   z-index: 0;
+   z-index: 1;
 }
 #page2Editbox2
 {
    display: block;
    width: 100%;
    height: 91px;
-   z-index: 1;
+   z-index: 2;
 }
